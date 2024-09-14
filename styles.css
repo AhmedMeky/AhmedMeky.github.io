@@ -1,0 +1,32 @@
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    background-color: #007bff; /* Adjust background color as needed */
+}
+
+.header-image {
+    width: 100%;
+    max-height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 0 0 15px 15px; /* Rounded corners for bottom of the image */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for navigation bar */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White text for navigation items */
+}
+
+.hero {
+    background: linear-gradient(to right, #ff6e5f, #feb47b); /* Gradient background for the hero section */
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Samir Meky - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Additional inline styles for customization */
+        .hero {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            padding: 0;
+            background-color: #007bff;
+        }
+
+        .header-image {
+            width: 32%;
+            max-height: 400px; /* Adjust height as needed */
+            object-fit: cover;
+            border-radius: 30px 30px 30px 30px; /* Rounded corners for bottom of the image */
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiI+PHBhdGggZD0iTTEyIDEuMTI1NkgwVjBIMFYxMiIvPjwvc3ZnPg==');
+        }
+
+        .testimonial-item {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+        }
+
+        footer {
+            background-color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Ahmed Samir Meky</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img src="./myImage.jpg" alt="Header Image" class="header-image rounded-circle">
+        <h1 class="display-4 fs1" style="color: black;">Ahmed Samir Meky</h1>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 class="display-4">About</h1>
+                <p class="lead">A passionate Back-end .NET Developer based in Cairo, Egypt.
+-A passionate software developer <br> who loves building efficient, well-crafted, testable, and extensible apps, with high degree of leadership and ownership.
+
+<br>- I can write clean, testable, defended, manageable, maintainable, and extensible code.
+
+<br>- I have strong skills in Problem Solving, Data Structures, Algorithms, Database, Software Testing, and Clean Code. Always aim to provide the best possible output with least amount of code, highest quality and design, with an extremely high degree of attention to details. I have the ability to learn anything very well, and fast.<br> When I decide to learn something, I always apply what I learn in the upcoming work.
+
+<br>- Now, I'm looking for an internship, or full-time opportunity as Junior Dotnet developer.
+                </p>
+                <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">About Me</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Education</h3>
+                        <ul class="list-unstyled">
+                            <li>Bachelor's degree in Computer Science, Assiut University, Assiut, Egypt</li>
+                            <li>ITI Intensive Code Camp (4 Months), FullStack .Net Track, Assiut, Egypt</li>
+                            <li>Summer training - .Net track, ITI</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Skills</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fab fa-cuttlefish"></i> <span class="badge badge-primary">C#</span></li>
+                            <li><i class="fab fa-cuttlefish"></i> <span class="badge badge-secondary">C++</span></li>
+                            <li><i class="fab fa-cuttlefish"></i> <span class="badge badge-dark">C</span></li>
+                            <li><i class="fab fa-cuttlefish"></i> <span class="badge badge-warning">Java</span></li>
+                            <li><i class="fab fa-js"></i> <span class="badge badge-info">JavaScript</span></li>
+                            <li><i class="fas fa-database"></i> <span class="badge badge-success">SQL, MSSQL Server</span></li>
+                            <li><i class="fas fa-server"></i> <span class="badge badge-danger">ASP.NET Core, ASP.NET MVC</span></li>
+                            <li><i class="fas fa-cloud"></i> <span class="badge badge-primary">ASP.NET API</span></li>
+                            <li><i class="fas fa-code"></i> <span class="badge badge-secondary">LINQ</span></li>
+                            <li><i class="fas fa-database"></i> <span class="badge badge-light">EF Core</span></li>
+                            <li><i class="fas fa-database"></i> <span class="badge badge-dark">ADO.NET</span></li>
+                            <li><i class="fas fa-code-branch"></i> <span class="badge badge-info">Source Version Control</span></li>
+                            <li><i class="fab fa-css3-alt"></i> <span class="badge badge-primary">CSS, CSS3</span></li>
+                            <li><i class="fab fa-html5"></i> <span class="badge badge-secondary">HTML, HTML5</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">My Work</h2>
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="./el.jpg" class="card-img-top" alt="Learning Lantern">
+                            <div class="card-body">
+                                <h5 class="card-title">Learning Lantern</h5>
+                                <p class="card-text">An E-Learning platform providing live video lectures, live chat, quizzes, and a calendar. Built using ASP.NET API, Angular, Repository Pattern, and Microservice Architecture.</p>
+                                <a href="https://github.com/learning-lantern" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="./ec.jpg" class="card-img-top" alt="E-Commerce App">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Commerce App</h5>
+                                <p class="card-text">Backend for an E-Commerce application built using C#, Entity Framework Core, LINQ, Repository Pattern, and Onion Architecture.</p>
+                                <a href="https://github.com/AhmedMeky/Dokkan-E-Commerce" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="./cc.jpg" class="card-img-top" alt="Coursera Clone">
+                            <div class="card-body">
+                                <h5 class="card-title">Coursera Clone</h5>
+                                <p class="card-text">Coursera clone is a front end project to simulate Coursera website, I used just html, css, and JavaScript/p>
+                                <a href="https://leetcode.com/u/meky20500/" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="testimonials" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">What People Say</h2>
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-item p-4">
+                            <p class="lead">"Ahmed is a skilled and dedicated developer. His work on our E-Learning platform was exceptional."</p>
+                            <p><strong>John Doe</strong></p>
+                            <p>Project Manager, XYZ Company</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-item p-4">
+                            <p class="lead">"Great problem-solving skills and a solid grasp of .NET technologies. Highly recommended."</p>
+                            <p><strong>Jane Smith</strong></p>
+                            <p>CTO, ABC Tech</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-item p-4">
+                            <p class="lead">"Ahmed’s contribution to our projects has been invaluable. He is both reliable and innovative."</p>
+                            <p><strong>Emily Johnson</strong></p>
+                            <p>Lead Developer, DEF Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Ahmed Samir Meky. All rights reserved.</p>
+        <a href="mailto:ahmed.meky.engineer@gmail.com" class="text-white mr-3"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/ahmedmeky" target="_blank" class="text-white mr-3"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/ahmedmeky" target="_blank" class="text-white"><i class="fab fa-github"></i> GitHub</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
